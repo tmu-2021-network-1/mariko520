@@ -92,17 +92,23 @@ color: #272727;
   #studios > div {
     margin: 1em 0;
     padding: 0.5em;
-    background: #f8f8f8;
+    background: #646464;
     min-height: 3em;
+    height:auto;
+    width:auto;
   }
   .studio-title {
     position:absolute;
     font-weight: bold;
+    color:#FFFFFF;
+    font-size: 23px;
   }
   .studio-title-en {
+    position:absolute;
     margin-left: 1em;
     font-weight: 100;
     opacity: 0.75;
+    color:#FFFFFF;
   }
 
   .studio-image{
