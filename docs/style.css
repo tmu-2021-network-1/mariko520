@@ -110,6 +110,13 @@ color: #272727;
     object-fit: cover;
   }
 
+  .studio-intro{
+    position:absolute;
+    padding-left:400px;
+    padding-right:100px;
+    text-align: justify;
+  }
+
   footer{
     margin-top:70px;
   }
