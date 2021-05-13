@@ -118,6 +118,7 @@ color: #272727;
     position:relative;
     width:400px;
     height:250px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top:53px;
