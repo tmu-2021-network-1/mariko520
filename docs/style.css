@@ -106,6 +106,9 @@ color: #272727;
 
   footer p{
     position:relative;
+    left: 587px;
+    width: 330px;
+    height: 80px;
     text-align: center;
     font: normal normal bold 10px/11px Arial;
     letter-spacing: 0.15px;
