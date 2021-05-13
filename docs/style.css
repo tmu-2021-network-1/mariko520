@@ -126,8 +126,9 @@ color: #272727;
 
   .studio-intro{
     position:relative;
-    padding-left:400px;
-    padding-right:100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:300px;
     text-align: justify;
     color:#FFFFFF;
   }
