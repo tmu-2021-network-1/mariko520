@@ -9,15 +9,26 @@ const renderJson = (json) => {
   studios.pop();
   
   studios.forEach(studio => {
+
    const studioDiv = document.createElement('div');
+   studioDiv.className ='studio-div'
+
    const studioTitle = document.createElement("span");
    studioTitle.className = 'studio-title';
    studioTitle.textContent = studio['name-ja'];
+
    const studioTitleEn = document.createElement("span");
    studioTitleEn.className = 'studio-title-en';
    studioTitleEn.textContent = studio['name-en'];
    studioDiv.appendChild(studioTitle);
    studioDiv.appendChild(studioTitleEn);
+
+   const  studioImage = document.createElement('img');
+   studioImage.id =studio['name-ja'];
+   studioImage.className = 'studio-image';
+   studioImage.src = studio['photo1'];
+   studioImage.alt = 'スタジオ';
+   
    document.getElementById('studios').appendChild(studioDiv);
  });
 }

@@ -104,6 +104,11 @@ color: #272727;
     opacity: 0.75;
   }
 
+  .studio-image{
+    width:200px;
+    height:150px;
+    object-fit: cover;
+  }
 
   footer{
     margin-top:70px;
