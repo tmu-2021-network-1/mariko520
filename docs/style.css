@@ -116,8 +116,9 @@ color: #272727;
   }
 
   .studio-image{
-    width:200px;
-    height:150px;
+    width:400px;
+    height:250px;
+    margin : 0 auto;
     object-fit: cover;
   }
 
