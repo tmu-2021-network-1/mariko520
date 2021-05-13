@@ -19,7 +19,6 @@ header{
   text-align:left;
   font: normal normal bold 20px/23px Arial;
   letter-spacing: 0px;
-  color: #4F4F4F;
   opacity: 1;
   list-style:none;
   overflow: hidden;
@@ -33,6 +32,7 @@ header{
 #nav li a{
 text-decoration: none;
 padding:20px;
+color: #272727;
 }
 
 img{
