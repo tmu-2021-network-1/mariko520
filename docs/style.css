@@ -29,10 +29,12 @@ header{
 
 #nav li{
   float: left;
+  margin-right:3px;
 }
 
 #nav li a{
 text-decoration: none;
+padding:20px;
 }
 
 img{
