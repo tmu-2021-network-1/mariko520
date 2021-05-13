@@ -5,6 +5,9 @@ const endpoint = `${uri}?id=${id}&sheet=${sheet}`;
 
 const renderJson = (json) => {
   const studios = json.records;
+
+  studious.pop();
+  
   studios.forEach(studio => {
    const studioDiv = document.createElement('div');
    const studioTitle = document.createElement("span");
