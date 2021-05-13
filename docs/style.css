@@ -89,6 +89,10 @@ color: #272727;
     opacity: 1;
   }
 
+  #studio{
+    margin-top: 30px;
+  }
+  
   #studios > div {
     margin: 1em 0;
     padding: 0.5em;
