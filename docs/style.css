@@ -105,6 +105,7 @@ color: #272727;
   }
 
   footer p{
+    position:relative;
     text-align: center;
     font: normal normal bold 10px/11px Arial;
     letter-spacing: 0.15px;
