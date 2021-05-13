@@ -103,3 +103,11 @@ color: #272727;
     font-weight: 100;
     opacity: 0.75;
   }
+
+  footer p{
+    text-align: center;
+    font: normal normal bold 10px/11px Arial;
+    letter-spacing: 0.15px;
+    color: #373737;
+    opacity: 1;
+  }
