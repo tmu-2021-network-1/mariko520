@@ -96,6 +96,7 @@ color: #272727;
   .mokuji-studio{
     padding: 0.5em 1em;
     margin: 2em 0;
+    font: normal normal bold 25px/29px Arial;
     color: #5d627b;
     background: white;
     border-top: solid 5px #5d627b;
