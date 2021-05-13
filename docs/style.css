@@ -54,7 +54,7 @@ color: #272727;
     position:absolute;
     top: 136px;
     left: 98px;
-    width: 100%;
+    max-width: 100%;
     height: 36px;
     text-align: left;
     font: normal normal bold 32px/37px Arial;
