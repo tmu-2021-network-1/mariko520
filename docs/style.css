@@ -92,7 +92,7 @@ color: #272727;
   #studio{
     margin-top: 30px;
   }
-  
+
   #studios > div {
     margin: 1em 0;
     padding: 0.5em;
@@ -126,6 +126,7 @@ color: #272727;
     padding-left:400px;
     padding-right:100px;
     text-align: justify;
+    color:#FFFFFF;
   }
 
   footer{
