@@ -21,6 +21,7 @@ header{
 }
 
 #nav{
+  position:absolute;
   top: 14px;
   left: 872px;
   list-style:none;
