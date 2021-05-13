@@ -22,6 +22,19 @@ header{
   opacity: 1;
 }
 
+#nav{
+  list-style:none;
+  overflow: hidden;
+}
+
+#nav li{
+  float: left;
+}
+
+#nav li a{
+text-decoration: none;
+}
+
 img{
   top: 0px;
   left: 312px;
