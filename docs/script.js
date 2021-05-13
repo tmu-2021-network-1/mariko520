@@ -20,8 +20,6 @@ const renderJson = (json) => {
    const studioTitleEn = document.createElement("span");
    studioTitleEn.className = 'studio-title-en';
    studioTitleEn.textContent = studio['name-en'];
-   studioDiv.appendChild(studioTitle);
-   studioDiv.appendChild(studioTitleEn);
 
    const  studioImage = document.createElement('img');
    studioImage.id =studio['name-ja'];
@@ -29,6 +27,10 @@ const renderJson = (json) => {
    studioImage.src = studio['photo1'];
    studioImage.alt = 'スタジオ';
    
+   studioDiv.appendChild(studioTitle);
+   studioDiv.appendChild(studioTitleEn);
+   studioDiv.appendChild(studioImage);
+
    document.getElementById('studios').appendChild(studioDiv);
  });
 }
