@@ -26,10 +26,15 @@ const renderJson = (json) => {
    studioImage.className = 'studio-image';
    studioImage.src = studio['photo1'];
    studioImage.alt = 'スタジオ';
+
+   const studioIntro = document.createElement('p');
+   studioIntro.className = 'studio-intro';
+   studioIntro.textContent = studio['description-ja'];
    
    studioDiv.appendChild(studioTitle);
    studioDiv.appendChild(studioTitleEn);
    studioDiv.appendChild(studioImage);
+   studioDiv.appendChild(studioIntro);
 
    document.getElementById('studios').appendChild(studioDiv);
  });
