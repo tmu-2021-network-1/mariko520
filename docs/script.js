@@ -20,7 +20,6 @@ const renderJson = (json) => {
    studioDiv.appendChild(studioTitleEn);
    document.getElementById('studios').appendChild(studioDiv);
  });
-  document.getElementById('result').textContent = JSON.stringify(json, null, 2);
 }
 
 const getData = async () => {
