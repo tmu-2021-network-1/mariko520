@@ -38,7 +38,8 @@ padding:20px;
 color: #272727;
 }
 
-img{
+.top img{
+  position:relative;
   top: 0px;
   left: 312px;
   width: 1192px;
