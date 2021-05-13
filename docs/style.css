@@ -116,16 +116,17 @@ color: #272727;
   }
 
   .studio-image{
+    position:absolute;
     width:400px;
     height:250px;
     margin-left: auto;
     margin-right: auto;
-    padding-top:40px;
+    padding-top:45px;
     object-fit: cover;
   }
 
   .studio-intro{
-    position:relative;
+    position:absolute;
     margin-left: auto;
     margin-right: auto;
     padding-top:300px;
