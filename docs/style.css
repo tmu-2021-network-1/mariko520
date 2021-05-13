@@ -113,12 +113,14 @@ color: #272727;
     font-weight: 100;
     opacity: 0.75;
     color:#FFFFFF;
+    padding-top:37px;
   }
 
   .studio-image{
     width:400px;
     height:250px;
     margin : 0 auto;
+    padding-top:40px;
     object-fit: cover;
   }
 
