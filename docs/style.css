@@ -100,7 +100,7 @@ color: #272727;
     color: #5d627b;
     background: white;
     border-top: solid 5px #5d627b;
-    box-shadow: 0 3px 5px #5d627b;
+    border-bottom: solid 2px #5d627b;
     margin-left: auto;
     margin-right: auto;
   }
@@ -108,7 +108,7 @@ color: #272727;
   .mokuji p{
     margin:0;
     padding:5px 0;
-    font: normal normal bold 25px/29px Arial;
+    font: normal normal bold 23px/27px Arial;
   }
 
   #studios > div {
