@@ -54,7 +54,7 @@ color: #272727;
 
 @media only screen and (max-width: 750px) {
 .pc { display: none !important; }
-.sp { display: block !important; }
+/*.sp { display: block !important; }*/
 }
 
   h1{
