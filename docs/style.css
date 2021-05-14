@@ -50,12 +50,12 @@ color: #272727;
   opacity: 1;
 }
 
-.pc { display: block !important; }
-.sp { display: none !important; }
+.top .pc { display: block !important; }
+.top .sp { display: none !important; }
 
 @media only screen and (max-width: 750px) {
-  .pc { display: none !important; }
-  .sp { display: block !important; }
+.top .pc { display: none !important; }
+.top .sp { display: block !important; }
 }
 
   h1{
