@@ -288,7 +288,7 @@ opacity:0;
 
 #section2{
   z-index: 1;
-  background: url(image/sky.PNG) center 0 / cover;
+  background: url(images/sky.PNG) center 0 / cover;
   position: fixed;
   top:700px;
 }
@@ -314,7 +314,7 @@ opacity:0;
 }
 
 #section3{
-  background: url(image/haikei.PNG) center 0 / cover;
+  background: url(images/haikei.PNG) center 0 / cover;
   position: fixed;
   top:1600px;
   left:300px;
@@ -397,7 +397,7 @@ opacity:0;
 }
 
 .oudan{
-  background:url(image/hodou.PNG) center 0 /cover;
+  background:url(images/hodou.PNG) center 0 /cover;
   position: relative;
   top:4100px;
   width:100%;
