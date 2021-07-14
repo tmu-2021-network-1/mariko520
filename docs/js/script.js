@@ -27,7 +27,7 @@ sr.reveal('.scrollreveal-fade', ScrollrevealFade, 100);*/
       $(".git-image").css('opacity', '0')
       $('.git-image').css('transition', '0.5s')
     }
-    if (scrollTop > 5350 ) {   
+    if (scrollTop > 5190 ) {   
       $(".js-image").css('opacity', '0')
       $('.js-image').css('transition', '0.5s')
     
